@@ -2,12 +2,12 @@
     {
         "id": 1,
         "name": "Reuseit",
-        "type": "Web_dev",
+        "type": "web_dev",
         "description": "Platform for Sell & Buy of reusable items.",
-        "tech": [
-            "React",
-            "Node JS",
-            "Express"
+        "techstack": [
+            "react",
+            "node",
+            "express"
         ],
         "image": "./img/project/reuseit.webp",
         "code": "https://github.com/narengavli/reuseit",
@@ -16,14 +16,14 @@
     {
         "id": 2,
         "name": "Login System",
-        "type": "Web_dev",
+        "type": "web_dev",
         "description": "",
-        "tech": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "MySQL",
-            "PHP"
+        "techstack": [
+            "html",
+            "css",
+            "javascript",
+            "mysql",
+            "php"
         ],
         "image": "./img/project/loginsystem.webp",
         "code": "https://github.com/narengavli/loginsystem",
@@ -32,12 +32,12 @@
     {
         "id": 3,
         "name": "Insightify",
-        "type": "Web_dev",
+        "type": "web_dev",
         "description": "Insightify is an online application that helps you to format text and paragraphs.",
-        "tech": [
-            "HTML",
-            "CSS",
-            "JavaScript"
+        "techstack": [
+            "html",
+            "css",
+            "javascript"
         ],
         "image": "./img/project/insightify.webp",
         "code": "https://github.com/narengavli/insightify",
@@ -46,12 +46,12 @@
     {
         "id": 4,
         "name": "To Do List",
-        "type": "Web_dev",
+        "type": "web_dev",
         "description": "To-do lists can help you get, and stay, on top of important projects and piles of tasks or decisions.",
-        "tech": [
-            "HTML",
-            "CSS",
-            "JavaScript"
+        "techstack": [
+            "html",
+            "css",
+            "javascript"
         ],
         "image": "./img/project/todolist.webp",
         "code": "https://github.com/narengavli/todo",
@@ -62,11 +62,11 @@
         "name": "PG Life",
         "type": "web_dev",
         "description": "PG Life helps you find online rooms all across India.",
-        "tech": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Bootstrap"
+        "techstack": [
+            "html",
+            "css",
+            "javascript",
+            "bootstrap"
         ],
         "image": "./img/project/pglife.webp",
         "code": "https://github.com/narengavli/PG-Life",
@@ -76,10 +76,10 @@
         "id": 6,
         "name": "Calculator",
         "type": "gui_app",
-        "description": "Calculator is Desktop GUI Application using Python and Tkinter. This application do basic mathematics function.",
-        "tech": [
-            "Python",
-            "Tkinter"
+        "description": "Calculator is Desktop GUI Application using python and tkinter. This application do basic mathematics function.",
+        "techstack": [
+            "python",
+            "tkinter"
         ],
         "image": "./img/project/calculator.webp",
         "code": "https://github.com/narengavli/Calculator",
@@ -90,9 +90,9 @@
         "name": "Guess Number",
         "type": "gui_app",
         "description": "Guess number game is small game. It can generate random numbers between 0 to 30 and we can guess this number.",
-        "tech": [
-            "Python",
-            "Tkinter"
+        "techstack": [
+            "python",
+            "tkinter"
         ],
         "image": "./img/project/guessnumber.webp",
         "code": "https://github.com/narengavli/Guess-Number",

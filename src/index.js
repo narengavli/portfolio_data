@@ -9,16 +9,14 @@ const port = process.env.PORT || 3000;
 const ProjectList = require("./data/ProjectList.json");
 const Skills = require("./data/skills.json");
 
-app.get("/", (req, res) => {
-    const filters = req.query;
-    const FilteredData = ProjectList.filter(data => {
-        let isValid = true;
-        for (key in filters) {
-            isValid = isValid && data[key] == filters[key];
-        }
-        return isValid;
-    });
-    res.send(FilteredData);
+app.get('/projects/:tech', (req, res) => {
+    const tech = req.params.tech.toLowerCase();
+    const FilteredProjects = ProjectList.filter(project => project.techstack.includes(tech));
+    res.send(FilteredProjects);
+});
+
+app.get("/projects", (req, res) => {
+    res.send(ProjectList);
 });
 
 app.get("/skills", (req, res) => {
@@ -26,5 +24,5 @@ app.get("/skills", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log("Successfully deploy API.");
+    console.log(`Server listening on port ${port}`);
 });
