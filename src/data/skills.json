@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "skill": "C/C++ and Problem Solving",
+        "level": "75"
+    },
+    {
+        "id": 2,
+        "skill": "Python",
+        "level": "70"
+    },
+    {
+        "id": 3,
+        "skill": "Shell Script",
+        "level": "65"
+    },
+    {
+        "id": 4,
+        "skill": "PHP",
+        "level": "60"
+    },
+    {
+        "id": 5,
+        "skill": "Frontend Development",
+        "level": "75"
+    },
+    {
+        "id": 6,
+        "skill": "React",
+        "level": "70"
+    },
+    {
+        "id": 7,
+        "skill": "Rest API",
+        "level": "80"
+    },
+    {
+        "id": 8,
+        "skill": "MySQL/MongoDB",
+        "level": "60"
+    }
+]
