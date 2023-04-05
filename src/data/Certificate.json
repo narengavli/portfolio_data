@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Web Development",
+        "link": "./img/certificate/webdev.webp"
+    },
+    {
+        "id": 2,
+        "name": "Blockchain",
+        "link": "./img/certificate/blockchain.webp"
+    },
+    {
+        "id": 3,
+        "name": "Shell Script",
+        "link": "./img/certificate/bash.webp"
+    }
+]
